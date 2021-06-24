@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/orenault/TestLink-API-Python-client",
+        "project folders": ["robot"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../testlink-smells.csv",
+    "projects": "../testlink-projects.csv"
+  }
+}

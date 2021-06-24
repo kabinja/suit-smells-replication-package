@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/plone/Products.CMFPlone",
+        "project folders": ["Products/CMFPlone/tests/robot"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../plone-smells.csv",
+    "projects": "../plone-projects.csv"
+  }
+}

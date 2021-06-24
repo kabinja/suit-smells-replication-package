@@ -1,0 +1,15 @@
+{
+    "git": {
+      "locations": [
+        {
+          "url": "https://github.com/ploneintranet/ploneintranet",
+          "project folders": ["src/ploneintranet/suite/tests"]
+        }
+      ],
+      "token": ""
+    },
+    "output": {
+      "smells": "../plone-intranet-smells.csv",
+      "projects": "../plone-intranet-projects.csv"
+    }
+  }

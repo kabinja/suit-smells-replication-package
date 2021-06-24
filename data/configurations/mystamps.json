@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/php-coder/mystamps",
+        "project folders": ["src/test/robotframework"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../mystamps-smells.csv",
+    "projects": "../mystamps-projects.csv"
+  }
+}

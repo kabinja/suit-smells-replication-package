@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/apache/ozone",
+        "project folders": ["hadoop-ozone/dist/src/main/smoketest"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../ozone-smells.csv",
+    "projects": "../ozone-projects.csv"
+  }
+}

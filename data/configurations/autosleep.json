@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/cloudfoundry-community/autosleep",
+        "project folders": ["acceptance"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../autosleep-smells.csv",
+    "projects": "../autosleep-projects.csv"
+  }
+}

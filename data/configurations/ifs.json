@@ -1,0 +1,16 @@
+{
+    "git": {
+      "locations": [
+        {
+          "url": "https://github.com/InnovateUKGitHub/innovation-funding-service",
+          "project folders": ["robot-tests/IFS_acceptance_tests"]
+        }
+      ],
+      "token": ""
+    },
+    "output": {
+      "smells": "../ifs-smells.csv",
+      "projects": "../ifs-projects.csv"
+    }
+  }
+  

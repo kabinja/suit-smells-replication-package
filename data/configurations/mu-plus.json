@@ -1,0 +1,16 @@
+{
+    "git": {
+      "locations": [
+        {
+          "url": "https://github.com/microsoft/mu_plus",
+          "project folders": ["DfciPkg/UnitTests/DfciTests"]
+        }
+      ],
+      "default branch": "release/202008",
+      "token": ""
+    },
+    "output": {
+      "smells": "../mu-plus-smells.csv",
+      "projects": "../mu-plus-projects.csv"
+    }
+  }

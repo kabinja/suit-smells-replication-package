@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/qubole/rubix",
+        "project folders": ["rubix-tests/src/test/robotframework"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../rubix-smells.csv",
+    "projects": "../rubix-projects.csv"
+  }
+}

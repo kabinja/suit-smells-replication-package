@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/timvideos/litex-buildenv",
+        "project folders": ["tests"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../litex-smells.csv",
+    "projects": "../litex-projects.csv"
+  }
+}

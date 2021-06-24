@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/Open-MBEE/mms-alfresco",
+        "project folders": ["mms-ent/runner/src/test/robotframework"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../mms-alfresco-smells.csv",
+    "projects": "../mms-alfresco-projects.csv"
+  }
+}

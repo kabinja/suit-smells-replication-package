@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/apinf/platform",
+        "project folders": ["tests"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../apinf-smells.csv",
+    "projects": "../apinf-projects.csv"
+  }
+}

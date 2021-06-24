@@ -1,0 +1,16 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/SFDO-Tooling/CumulusCI",
+        "project folders": ["cumulusci/robotframework"]
+      }
+    ],
+    "default branch": "main",
+    "token": ""
+  },
+  "output": {
+    "smells": "../cumulus-ci-smells.csv",
+    "projects": "../cumulus-ci-projects.csv"
+  }
+}

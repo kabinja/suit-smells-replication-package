@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/BaobabLims/baobab.lims",
+        "project folders": ["baobab/lims/tests"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../baobablims-smells.csv",
+    "projects": "../baobablims-projects.csv"
+  }
+}

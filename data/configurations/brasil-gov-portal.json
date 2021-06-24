@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/plonegovbr/brasil.gov.portal",
+        "project folders": ["src/brasil/gov/portal/tests/robot"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../brasil-gov-portal-smells.csv",
+    "projects": "../brasil-gov-portal-projects.csv"
+  }
+}

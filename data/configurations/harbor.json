@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/goharbor/harbor",
+        "project folders": ["tests"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../harbor-smells.csv",
+    "projects": "../harbor-projects.csv"
+  }
+}

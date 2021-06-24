@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/collective/collective.cover",
+        "project folders": ["src/collective/cover/tests"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../collective-cover-smells.csv",
+    "projects": "../collective-cover-projects.csv"
+  }
+}

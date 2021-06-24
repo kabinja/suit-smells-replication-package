@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/rspamd/rspamd",
+        "project folders": ["test/functional/cases"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../rspamd-smells.csv",
+    "projects": "../rspamd-projects.csv"
+  }
+}

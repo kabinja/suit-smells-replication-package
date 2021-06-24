@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/bikalims/bika.lims",
+        "project folders": ["bika/lims/tests"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../bikalims-smells.csv",
+    "projects": "../bikalims-projects.csv"
+  }
+}

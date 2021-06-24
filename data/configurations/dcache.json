@@ -1,0 +1,15 @@
+{
+  "git": {
+    "locations": [
+      {
+        "url": "https://github.com/dCache/dcache",
+        "project folders": ["packages/system-test/src/main/skel/share/robot"]
+      }
+    ],
+    "token": ""
+  },
+  "output": {
+    "smells": "../dcache-smells.csv",
+    "projects": "../dcache-projects.csv"
+  }
+}

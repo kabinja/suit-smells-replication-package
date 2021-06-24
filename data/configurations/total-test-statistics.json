@@ -1,0 +1,60 @@
+{
+    "git": {
+      "locations": [
+        {
+          "url": "https://github.com/apinf/platform",
+          "project folders": ["tests"]
+        },
+        {
+          "url": "https://github.com/bikalims/bika.lims",
+          "project folders": ["bika/lims/tests"]
+        },
+        {
+          "url": "https://github.com/collective/collective.cover",
+          "project folders": ["src/collective/cover/tests"]
+        },
+        {
+          "url": "https://github.com/SFDO-Tooling/CumulusCI",
+          "project folders": ["cumulusci/robotframework/tests"]
+        },
+        {
+          "url": "https://github.com/goharbor/harbor",
+          "project folders": ["tests/robot-cases"]
+        },
+        {
+          "url": "https://github.com/InnovateUKGitHub/innovation-funding-service",
+          "project folders": ["robot-tests/IFS_acceptance_tests"]
+        },
+        {
+          "url": "https://github.com/Open-MBEE/mms-alfresco",
+          "project folders": ["mms-ent/runner/src/test/robotframework/suites"]
+        },
+        {
+          "url": "https://github.com/php-coder/mystamps",
+          "project folders": ["src/test/robotframework"]
+        },
+        {
+          "url": "https://github.com/apache/ozone",
+          "project folders": ["hadoop-ozone/dist/src/main/smoketest"]
+        },
+        {
+          "url": "https://github.com/ploneintranet/ploneintranet",
+          "project folders": ["src/ploneintranet/suite/tests/acceptance"]
+        },
+        {
+          "url": "https://github.com/plone/Products.CMFPlone",
+          "project folders": ["Products/CMFPlone/tests/robot"]
+        },
+        {
+          "url": "https://github.com/rspamd/rspamd",
+          "project folders": ["test/functional/cases"]
+        }
+      ],
+      "frequency": "LATEST",
+      "token": ""
+    },
+    "output": {
+      "tests": "../total-test-statistics.csv"
+    }
+  }
+  
