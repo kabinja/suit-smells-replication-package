@@ -1,7 +1,7 @@
 import time
 import py7zr
 
-from os import listdir, stat, makedirs
+from os import listdir
 from os.path import isfile, join, dirname, realpath
 
 if __name__ == "__main__":

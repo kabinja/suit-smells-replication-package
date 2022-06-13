@@ -1,10 +1,6 @@
-import pandas
 import graphics
 import time
 import data
-
-from os.path import join
-
 
 def pretty_label(metric):
     if metric == 'number_test_cases':
