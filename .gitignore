@@ -130,6 +130,7 @@ dmypy.json
 
 # cache
 __cache__/
+data/*.csv
 
 # output
 tables/
