@@ -131,7 +131,7 @@ dmypy.json
 # cache
 __cache__/
 data/*.csv
-.jar/
+jar/
 
 # output
 tables/
