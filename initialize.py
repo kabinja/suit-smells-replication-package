@@ -15,7 +15,7 @@ def unzip_data():
 
 
 def download_jar():
-    jar_url = "https://github.com/serval-uni-lu/ikora-evolution/releases/download/ikora-evolution-0.1.8/ikora-evolution-0.1.8.jar"
+    jar_url = "https://github.com/serval-uni-lu/ikora-evolution/releases/download/ikora-evolution-0.1.9/ikora-evolution-0.1.9.jar"
 
     if not os.path.exists('jar'):
         os.makedirs('jar')
