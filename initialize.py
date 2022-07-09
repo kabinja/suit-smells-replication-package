@@ -1,7 +1,5 @@
 import time
 import py7zr
-import urllib.request
-import os
 
 from os import listdir
 from os.path import isfile, join, dirname, realpath
@@ -14,20 +12,10 @@ def unzip_data():
             archive.extractall(path='data')
 
 
-def download_jar():
-    jar_url = "https://github.com/serval-uni-lu/ikora-evolution/releases/download/ikora-evolution-0.1.9/ikora-evolution-0.1.9.jar"
-
-    if not os.path.exists('jar'):
-        os.makedirs('jar')
-
-    urllib.request.urlretrieve(jar_url, 'jar/ikora-evolution.jar')
-
-
 if __name__ == "__main__":
     t_start = time.perf_counter()
 
     unzip_data()
-    download_jar()
 
     t_stop = time.perf_counter()
     print("--------------------------------------------------")
