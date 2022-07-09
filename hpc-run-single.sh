@@ -2,7 +2,7 @@
 
 #SBATCH -n 1
 #SBATCH -N 1
-#SBATCH -c 4
+#SBATCH -c 2
 #SBATCH -J smells
 
 configuration=$1
