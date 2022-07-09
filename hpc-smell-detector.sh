@@ -10,6 +10,9 @@ if [ ! -d "./jar" ]; then
     wget $jar_url -O ./jar/ikora-evolution.jar
 fi
 
+java -version
+
 find data/configurations -iname '*.json' | while read config; do
-    sbatch --output=suit-smell-$config.out --time=0-10:00:00 ./hpc-run-single.sh $(readlink -f $config)
+    name=$(echo $(basename $config .json))
+    sbatch --output=suit-smell-$name.out --time=0-10:00:00 ./hpc-run-single.sh $(readlink -f $config)
 done
