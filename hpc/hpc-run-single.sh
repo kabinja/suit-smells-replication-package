@@ -1,7 +1,7 @@
 #!/bin/bash -l
 
-#SBATCH -n 1
 #SBATCH -N 1
+#SBARCH -m 12
 #SBATCH -c 4
 #SBATCH -J smells
 
