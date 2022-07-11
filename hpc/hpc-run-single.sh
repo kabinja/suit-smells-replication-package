@@ -6,4 +6,4 @@
 #SBATCH -J smells
 
 configuration=$1
-java -Xms8g -Xmx8g -jar ../jar/ikora-evolution.jar -config $configuration
+java -Xms8g -Xmx8g -jar ./jar/ikora-evolution.jar -config $configuration
