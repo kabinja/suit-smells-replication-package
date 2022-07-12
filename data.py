@@ -20,7 +20,7 @@ TABLE_FOLDER = 'tables/'
 
 
 def pretty_smell_name(name):
-    if name == 'CALCULATE_EXPECTED_RESULTS_ON_THE_FLY':
+    if name == 'ON_THE_FLY':
         return "On the Fly"
     if name == 'COMPLICATED_SETUP_SCENARIOS':
         return "Complex Scenario"
@@ -30,11 +30,11 @@ def pretty_smell_name(name):
         return 'Eager Test'
     if name == 'HARDCODED_ENVIRONMENT_CONFIGURATIONS':
         return 'Hardcoded Environment'
-    if name == 'HIDING_TEST_DATA_IN_FIXTURE_CODE':
+    if name == 'HIDING_TEST_DATA':
         return 'Hidden Test Data'
     if name == 'LACK_OF_ENCAPSULATION':
         return 'Lack of Encapsulation'
-    if name == 'LOGGING_IN_FIXTURE_CODE':
+    if name == 'NOISY_LOGGING':
         return 'Noisy Logging'
     if name == 'LONG_TEST_STEPS':
         return 'Long Test Steps'
@@ -46,16 +46,20 @@ def pretty_smell_name(name):
         return 'Hardcoded Values'
     if name == 'OVER_CHECKING':
         return 'Over Checking'
-    if name == 'COMPLEX_LOCATORS':
+    if name == 'SENSITIVE_LOCATOR':
         return 'Sensitive Locator'
     if name == 'SNEAKY_CHECKING':
         return 'Sneaky Checking'
     if name == 'STINKY_SYNCHRONIZATION_SYNDROME':
         return 'Stinky Synchronization'
-    if name == 'TEST_CLONES':
+    if name == 'ARMY_OF_CLONES':
         return 'Army of Clones'
-    if name == 'USING_PERSONAL_PRONOUN':
+    if name == 'NARCISSISTIC':
         return 'Narcissistic'
+    if name == 'MISSING_DOCUMENTATION':
+        return 'Missing Documentation'
+    if name == 'SAME_DOCUMENTATION':
+        return 'Same Documentation'
 
     raise RuntimeError('Invalid metric name: ' + name)
 
