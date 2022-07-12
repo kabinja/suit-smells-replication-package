@@ -7,7 +7,7 @@ import textdistance
 from kneed import KneeLocator
 
 
-TO_IGNORE = ['Eager Test', 'Complex Scenario']
+TO_IGNORE = ['Eager Test', 'Complex Scenario','Same Documentation', 'Missing Documentation']
 
 
 def pretty_column_name(column):
@@ -31,7 +31,7 @@ def pretty_column_name(column):
         return 'Test Case Level'
     
 
-    raise RuntimeError('Invalid label name: ' + label)
+    raise RuntimeError('Invalid label name: ' + column)
 
 def compute_number_fixes_per_test(smell_data):
     total = smell_data.loc[smell_data['smell_raw_value'] > 0].groupby(['origin', 'test_case_name', 'smell_name'])['fixes'].sum().reset_index()
